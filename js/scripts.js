@@ -3,4 +3,8 @@ $(document).ready(function() {
     $("#hidden").toggle();
     $("#showing").toggle();
   });
+  $(".click").click(function() {
+    $("#carpenter").fadeToggle("slow");
+
+  });
 });
