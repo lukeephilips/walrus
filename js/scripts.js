@@ -1,10 +1,12 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
+  $(".walrus").click(function() {
     $("#hidden").toggle();
     $("#showing").toggle();
   });
-  $(".click").click(function() {
-    $("#carpenter").fadeToggle("slow");
-
+  $("span.carpenter").click(function() {
+    $("img#carpenter").fadeToggle("slow");
+  });
+  $("span#slider").click(function() {
+    $("img#sliding").slideToggle("slow");
   });
 });
