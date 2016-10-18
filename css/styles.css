@@ -14,3 +14,16 @@
 img {
   width: 25%
 }
+
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.pink {
+  background-color: pink;
+}
+.blue {
+  background-color: deepskyblue;
+}
